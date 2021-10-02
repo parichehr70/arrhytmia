@@ -25,10 +25,6 @@ function [R_i,R_amp,S_i,S_amp,T_i,T_amp,Q_i,Q_amp,heart_rate,buffer_plot,time_sc
 % function as below ;
 % [R_i,R_amp,S_i,S_amp,T_i,T_amp]=peakdetect(EKG1,250,10);
 
-
-%% Author : Hooman Sedghamiz    contact :hoose792@student.liu.se , hooman650@yahoo.com
-% Dont forget to reference if you found this script usefull
-%%
 close all ; % close the active plots
 % % % if nargin < 3
 % % %     view = 8; % on default the first 8 seconds are viewed
